@@ -36,6 +36,7 @@ public class SampleController {
              
 
    List<FilteredProducts> list=new ArrayList<>();
+   
 	 for(int i=0;i<data.length();i++){
 		JSONObject json=data.getJSONObject(i);
 		int price=json.getInt("price");
